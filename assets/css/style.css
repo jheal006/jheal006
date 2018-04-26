@@ -896,9 +896,7 @@ button.mfp-close{
   padding-top: 72px;
   position: relative;
 }
-.counter_bg .timer-section {
-  width: 33%;
-}
+
 .social-text {
   margin-top: 24px;
   font-size: 16px;
@@ -977,6 +975,12 @@ ul {
   background: url(../images/rockywall.png);
   background-size: cover;
   padding: 72px 0 24px 0;
+}
+#contact .container .row {
+  text-align: center;
+}
+.contactBox {
+  display: inline-block;
 }
 .well {
   min-height: 20px;
@@ -1073,6 +1077,11 @@ ul {
   border-top: 1px solid #D4D4D4;
 }
 /*--- 16. MEDIA QUERIES FOR RESPONSIVE DESIGN ---*/
+@media (min-width: 768px) {
+  .counter_bg .col-sm-3 {
+    width: 33%;
+  }
+}
 @media (max-height: 420px) {
   .mobile-overlay a {
     padding: 5px 0;
