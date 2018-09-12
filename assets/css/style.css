@@ -532,6 +532,10 @@ header:before {
   font-weight: 500;
   color: #4a4a4a;
 }
+span {
+  font-weight: 600;
+  color: #fb6d0d;
+}
 /*--- 06. SKILLBAR ---*/
 .skill h4 {
   text-align: left;
