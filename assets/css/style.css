@@ -1089,11 +1089,6 @@ ul {
   .counter_bg .col-sm-3 {
     width: 33%;
   }
-  #about .container .personal-info span {
-    color: #000;
-    background: #fb6d0d;
-    padding: 5px;
-  }
 }
 @media (max-height: 420px) {
   .mobile-overlay a {
@@ -1103,7 +1098,7 @@ ul {
     display: none;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
   .resume-block:before {
     left: 146px;
   }
@@ -1312,4 +1307,9 @@ ul {
     background: #fb6d0d;
     padding: 5px;
   }
+}
+@media (max-width: 1240px) and (min-width: 1000px) {
+  .row.personal-info li:nth-child(2) span {
+      margin-left: -60px;
+    }
 }
