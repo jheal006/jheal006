@@ -536,6 +536,11 @@ span {
   font-weight: 600;
   color: #fb6d0d;
 }
+
+#about .container .personal-info {
+  margin-left: 255px;
+}
+
 /*--- 06. SKILLBAR ---*/
 .skill h4 {
   text-align: left;
@@ -571,7 +576,6 @@ span {
   font-family: 'Quicksand', sans-serif;
   color: #4a4a4a;
 }
-
 
 #service .nav {
   margin-left: 100px;
@@ -1085,6 +1089,11 @@ ul {
   .counter_bg .col-sm-3 {
     width: 33%;
   }
+  #about .container .personal-info span {
+    color: #000;
+    background: #fb6d0d;
+    padding: 5px;
+  }
 }
 @media (max-height: 420px) {
   .mobile-overlay a {
@@ -1138,6 +1147,9 @@ ul {
   }
   .contact-left {
     padding-left: 30px;
+  }
+  #about .container .personal-info {
+    margin: 0px;
   }
 }
 @media (max-width: 767px) {
@@ -1292,5 +1304,12 @@ ul {
   .intro-text h1 {
     font-size: 42px;
     font-weight: 500;
+  }
+}
+@media (max-width: 900px) and (min-width:450px) {
+  #about .container .personal-info span {
+    color: #000;
+    background: #fb6d0d;
+    padding: 5px;
   }
 }
